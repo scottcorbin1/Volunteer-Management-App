@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-input {
+  flex-basis: calc(100%);
+  margin-bottom: 20px;
+}
+
+.AdminLogin {
+  height: 100vh;
+  background-color: rgba(188, 188, 248, 0.59);
+}
+
+.login-form > button {
+  margin-top: 10px;
+}
+
+.login-title {
+  background-color: navy;
+  color: aliceblue;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* table styling */
+
+.opp-table-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.opp-table {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.opp-table > form {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form > input {
+  height: 35px;
+  width: 365px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+table {
+  text-align: center;
+  background-color: rgb(158, 158, 170);
+  width: fit-content;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+table,
+th,
+td,
+tr {
+  margin-top: 3%;
+}
+
+tr:nth-child(even) {
+  background-color: navy;
+  color: aliceblue;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(99, 99, 105);
+  color: aliceblue;
+}
+
+th {
+  height: 25px;
+  background-color: navy;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+}
+
+.btnEdit {
+  background-color: rgb(207, 207, 17);
+}
+
+.btnDelete {
+  background-color: rgb(209, 89, 89);
+}
+
+button {
+  color: black;
+  border-radius: 15%;
+  transition: transform 0.3 ease;
+}
+
+button:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.sort-btn {
+  background-color: rgb(184, 178, 178);
+  border-radius: 15%;
+}
+
+.opp-filter {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.opp-filterh3 {
+  text-align: center;
+}
+
+.reset-btn {
+  background-color: navy;
+  color: white;
+  border: 2px solid rgba(0, 0, 128, 0);
+  font-weight: bold;
+  padding: 5px;
+  width: 50%;
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.reset-btn:hover {
+  transform: rotate(360deg);
+  transition: transform 0.3s ease;
+}
+
+.reset-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.create-btn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  height: 45px;
+  width: 200px;
+  background-color: rgb(12, 150, 65);
+  border-radius: 55%;
+}
+
+.create-btn1 {
+  color: white;
+  display: flex;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: navy;
+  border: none;
+  border-radius: 15px;
+}
+
+.color-text {
+  color: white;
+}
+
+.button:hover {
+  background-color: #6d746d;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.filter-vol {
+  align-items: center;
+  text-align: center;
+}
+
+.container-home {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4%;
+}
+
+.volunteer-filter-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search-bar {
+  width: 30vw;
+  margin: auto;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.error-message{
+  color: red;
+}
+
+.home-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}

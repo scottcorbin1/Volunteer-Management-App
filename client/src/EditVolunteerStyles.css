@@ -1,0 +1,47 @@
+.editVolContainer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+
+.editVolInputContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.editVolInputSections{
+    display: flex;
+    flex-direction: column;
+    width: 400px
+
+}
+
+.editVolButtonSection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.editVolLables{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.inputVolDivider{
+
+    width: 50px;
+    
+
+}
+
+.editVolReturnSection{
+
+    padding-right: 5px;
+}

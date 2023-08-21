@@ -1,0 +1,62 @@
+.EditOppContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.EditOpportunityForm{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 25px;
+
+
+}
+
+
+.editOppInput {
+
+    width: 550px;
+
+
+}
+
+.editOppSelect {
+
+    width: 400px;
+    height: 25px;
+
+}
+
+.EditOppLabels{
+
+margin-bottom: 10px;
+
+    
+
+}
+
+.oppInputSections{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 25px;
+}
+
+.editOppButtonSection {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.editOppReturnSection {
+
+    margin-right: 10px;
+}

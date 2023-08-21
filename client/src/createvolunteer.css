@@ -1,0 +1,41 @@
+.volunteerlabel {
+  display: flex;
+  justify-content: left;
+}
+
+.volunteerinput {
+  flex-basis: calc(50%);
+  margin-bottom: 20px;
+}
+
+.volButton {
+  flex-basis: calc(100%);
+  margin-bottom: 20px;
+}
+
+.volunteerform {
+  display: flex;
+  width: 60vw;
+  margin: auto;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.submitButton {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.clearButton {
+  background-color: rgb(209, 11, 11);
+  color: white;
+  font-size: 18px;
+}

@@ -1,0 +1,73 @@
+.createAdminContainer{
+
+    display: flex;
+    flex-direction: column;
+;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.createAdminForm{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 25px;
+
+}
+
+.adminInputArea{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.createAdminInput {
+
+    width: 550px;
+
+}
+
+.adminEM{
+
+    height: 3px;
+    color: red;
+    text-indent: 10px;
+
+}
+
+
+.createAdminAccountLabels{
+
+    margin-bottom: 15px;  
+
+}
+
+.adminInputSections{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
+.adminButtonArea {
+
+    margin-top: 20px;
+}
+
+.createAccountSubmit {
+    display: flex;
+    justify-content: space-evenly ;
+    margin-right: 30%;
+    margin-bottom: 20px;
+}
+
+.return-btn, .createAccountSubmit > button {
+    background: linear-gradient(to right, rgba(36, 36, 129, 0.655),rgb(70, 70, 149), white);
+   font-weight: bold;
+    
+}
